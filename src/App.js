@@ -3,11 +3,14 @@ import './styles.css'
 
 const ACTIONS = {
     ADD_DIGIT: 'add-digit',
-    CLEAR: 'clear'
+    CHOOSE_OPERATION: 'choose-operation',
+    CLEAR: 'clear',
+    DELETE_DIGIT: 'delete-digit',
+    EVALUATE: 'evaluate'
 }
 
 function reducer(state, {type, payload}) {
-
+    
 }
 
 function App() {
